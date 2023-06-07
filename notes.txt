@@ -1,0 +1,100 @@
+PAGE 1: menu défilant, historique avec photo des agriculteurs (nous sommes
+agriculteurs, on travaille sur la métropole lilloise), notre fondation etc.. si on clique, emmené vers une page qui liste tous les exploitants 
+(une coopérative = toujours les mêmes exploitants)
+reviews
+
+COULEURS 
+F2EE72 jaune fond
+433E0E vert foncé barre
+C45824 marron boutons
+000000 noir footer
+
+pages:
+*identification
+*panier
+*nos produits
+*la fidélité avec nous
+nos magasins
+nos agriculteurs
+contact
+conditions générales de vente
+information de livraison
+
+
+quand on clique sur le produit, en + des détails & les agriculteurs qui le 
+cultivent: proposition de recettes (faire vivre le site)
+
+usecases: 
+*créer compte
+*se co/déco
+*supprimer profil
+*mdp oublié
+*bar de recherche
+*panier
+*voir produits (6)
+- tous nos produits,
+- paniers,
+- jus,
+- confiture,
+- compote,
+- soupe
+*details produits (zone de croissance, nom du producteur)
+*supprimer profil
+*commenter un produit
+*modifier comm
+*aimer un produit
+*ajouter au panier
+*paiement en ligne
+*carte fidélité dématérialisée (système de points)
+*modifier profil user
+*suppression user
+*stats
+*stats
+*voir liste user
+*modération
+
+nom:
+moi moche et mignon
+
+site regroupant plusieurs producteurs (cooperative)
+échelle: métropole lilloise
+
+fruits & légumes de saison,
+fruits & légumes là toute l'année
+updates hebdomadaires
+jus de fruits & confitures, produits dérivés à base de trucs moches
+
+panier
+creation de compte
+
+click&collect panier surprise (petits lots pour gens seuls, + gros pour familles), réservation en ligne
+?? boîte de texte (commentaires, demandes) ex: "pas de pêche je suis allergique"
+-> plusieurs points de retrait/collecte
+-> livraison à domicile à la hellofresh pour motiver d'autres gens. 
+
+PRIX:
+4€/kg
+petit panier (lots) = 1 personne, 3€? 1kg5?
+grand panier, ex: 5kg, 25€, 
+?? code de 1ère commande
+
+FIDELITE:
+systeme de fidelite, ex petit panier gratuit toutes les 10 commandes
+un jus offert pour ceux qui viennent sur place?
+25€ livraison gratuite
+
+tentative:
+onglets du site selectable au dessus a la hotbar
+p1 introduction aguicheuse, claire & concise, ex:
+patate en forme de coeur en avant
+avec marketing bio! une patate sauvee = une planete sauvee EN HEADLINE
+?? des chiffres, ex: 80k de légumes sauvés, 40k de litres d'eau économisés
+p2 infos globales, ex: les dates de livraison possibles selon les produits & les lieux, entre telle heure & telle heure
+système de fonctionnement général
+p3 produits
+tous nos produits,
+paniers,
+jus,
+confiture 
+(selectable sur la gauche/droite for quick switching)
+p4 notre engagement
