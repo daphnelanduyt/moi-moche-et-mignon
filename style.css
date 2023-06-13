@@ -1,3 +1,38 @@
+body{
+    background-color: #F2EE72;
+}
 .description{
     
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color:rgb(215, 220, 178);
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    justify-content: center;
+}
+#footerlists{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+footer a:link, a:visited{
+    color: #F2EE72;
+    text-decoration: none;
+}
+#footericons{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    height: 50px;
+    margin-left:210px;
+}
+footer p{
+    align-self: flex-end;
+}
+.bulletless{
+    list-style-type: none;
 }
