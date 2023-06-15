@@ -1,3 +1,21 @@
-.discription{
-    
+body{
+    background-color: #F2EE72;
+}
+
+.header2{
+    border: 1px red solid;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px;
+}
+
+.header2 div button{
+    padding: 10px;
+    border:1px red solid;
+}
+
+.description{
+    border:red solid;
+    display: inline-block;
 }
