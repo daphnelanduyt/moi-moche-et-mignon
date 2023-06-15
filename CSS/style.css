@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #a1661d;
+    text-decoration: none;
+}
+
+header{
+    background-color: #a1661d;
+    width: 100%;
+}
+#header1{
+    display: flex;
+    background-color: #a1661d;
+    justify-content: space-between;
+    padding: 5px 8px;
+    position: relative;
+}
+
+#headericons{
+    padding:20px;
+}
+
+#logo{
+    margin-top: 12px;
+}
+
+#header2{
+    background-color: ;
+    display: flex;
+    justify-content: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#avataricon{
+    margin-right:30px;
+}
+
+#header2 div button{
+    padding: 10px;
+}
+
+#searchbar{
+    display:inline-block;
+    width:350px;
+    margin-left: -100px;
+    margin-top: 20px;
+}
+
+#headerbuttons{
+    display: flex;
+    width: 1385px;
+    justify-content: right;
+}
+
+#btn1{
+    margin-right:5px;
+}
+
+.dropdown{
+    color: white;
+}
+
+#btn2{
+    margin-right:5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 5px;    
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color:rgb(215, 220, 178);
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+#footerlists{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+footer a{
+    color: #F2EE72;
+    text-decoration: none;
+}
+#footericons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 23%;
+    margin-left:210px;
+    margin-bottom: 10px;
+}
+footer p{
+    align-self: flex-end;}
+.bulletless{
+    list-style-type: none;
+}
