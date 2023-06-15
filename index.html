@@ -4,89 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/index.css">
     <title>Moi, moche et trognon</title>
 </head>
 <body>
-    <!-- <div class="header2"> -->
-    <header>
-        <a href = ./index.html> <img src="./images/logo site temp.png" width="160px" height="70px" id="logo"></a>
-        <form> 
-            <input type="search" name="recherche" placeholder="rechercher..." id="searchbar">
-        </form>
-        <a href ="./connexion.html"> <img src="./images/avatar icone.png" width="40px" height="40px"></a>
-        <button> S'identifier</button>
-        <a href = "./panier.html"><img src="./images/panier icone.png" alt="Panier" width="40px" height="40px"></a>
-    </header>
-    <div id="header2">
-        <nav>
-            <select> Nos produits
-                <option value="tous">Tous nos produits</option>
-                <option value="lots">Les lots anti-gaspillage</option>
-                <option value="jus">Jus</option>
-                <option value="compotes">Compotes</option>
-                <option value="confitures">Confitures</option>
-                <option value="soupes">Soupes</option>
-            </select>
-            <div>
-                <button type="button">Nos magasins</button>
-                <button type="button">Nos agriculteurs</button>
-                <button type="button">La Fidelité avec nous</button>
-            </div>
-    </div>
     <div class="description">
-        <img src="./images/minions oasis.jpg" alt="fruits mignons avec les minions">
-        <!--<div>Je suis moche et trognon <br> Et très mignon. <br> J'ai hâte d'être mangé. <br> Viens vite m'acheter <br> A 50 % du prix du marché.</div>-->
+        <img src="./Images/minions oasis.jpg" class="rounded mx-auto d-block" alt="fruits avec les minions">
     </div>
     <div class="stadedefrance">
-        <img src="./images/Stade_de_France_.jpg" alt="stade de france" width="1325">
-        <div>Le gâchis en France, c'est 17 millions de tonnes par an. Cela représente 17 fois le Stade de France rempli à ras bord de fruits et légumes parfaitement consommables qui sont jetés chaque année</div>
+        <div class="opacity-75">
+            <img src="./Images/Stade_de_France_.jpg" alt="stade de france" style="width:100%";>
+        </div>
+        <div class="text-block fs-2 fw-bold">Le gâchis en France, c'est 17 millions de tonnes par an. Cela représente 17 fois le Stade de France rempli à ras bord de fruits et légumes parfaitement consommables qui sont jetés chaque année</div>
     </div>
     <div class="stats">
-        <span>
+        <div class="element1">
             <img src="./images/image_jus.jpeg" alt="image des jus" width="100">
             <p>30000 fruits sauvés pour la production des 7300 litres de jus</p>
-        </span>
-        <span>
-            <img src="./images/image_confiture.webp" alt="image confiture" width="100">
+        </div>
+        <div class="element2">
+            <img src="./Images/Recettes-de-confitures.jpg" alt="image confiture" width="100">
             <p>2281Kg fruits sauvés pour la production des 9125 pots de confiture</p>
-        </span>
-        <span>
+        </div>
+        <div class="element3">
             <img src="./images/image_soupe.jpeg" alt="image soupe" width="100">
             <p>2700Kg légumes sauvés pour la production des 5475 litres de soupe</p>
-        </span>
-        <span>
+        </div>
+        <div class="element4">
             <img src="./images/image_compote.jpeg" alt="image compote" width="100">
             <p>2500 Kg fruits sauvés pour la production des 3560 pots de compote</p>
-        </span>
+        </div>
     </div>
-    <title>Moi, moche et trognon</title>
-    
-    <footer>
-        <nav>
-            <section>
-                <div id="footerlists">
-                    <ul class="bulletless">
-                        <li><a href="./produits.html">Nos produits</a></li>
-                        <li><a href="./magasins.html">Nos magasins</a></li>
-                        <li><a href="./fournisseurs.html">Nos fournisseurs</a></li>
-                        <li><a href="./fidelite.html">La fidélité avec nous</a></li>
-                    </ul>
-                    <ul class="bulletless" id="footerlist2">
-                        <li><a href="./conditions.html">Conditions générales de vente</a></li>
-                        <li><a href="./livraison.html">Informations de livraison</a></li>
-                        <li><a href="url">Contact</a></li>
-                    </ul>
-                </div>
-                <div id="footericons">
-                    <a href="https://www.facebook.com" target="_blank"><img src="./images/logo fb.png" alt="fb" width="25px"></a>
-                    <a href="https://www.twitter.com" target="_blank"><img src="./images/logo twt.png" alt="twt" width="25px"></a>
-                    <a href="https://www.youtube.com" target="_blank"><img src="./images/logo ytb.png" alt="ytb" width="25px"></a>
-                </div>
-            </section>
-        </nav>
-        <p>© 2023, Moi, moche et trognon</p>
-    </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,46 @@
+body{
+    background-color: #F2EE72;
+}
+
+.description{
+    margin: 40px;
+    width: 95%;
+}
+
+.stadedefrance{
+    position: relative;
+    text-align: center;
+    color: rgb(12, 12, 12);
+}
+
+
+.text-block {
+    position: absolute;
+    bottom: 300px;
+    right: 20px;
+    background-color: rgba(228, 226, 226, 0.37);
+    color: rgb(10, 10, 10);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.stadedefrance img {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.stats{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.element1, .element2, .element3, .element4{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.stats div img{
+    border-radius: 75px 75px;
+}
