@@ -1,0 +1,36 @@
+body{
+    background-color: #F2EE72;
+}
+
+.form{
+    border: #433E0E solid;
+    width: 550px;
+    padding: 30px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 30% 0% 30% 0%;
+}
+
+.form h3, .form p{
+    text-align: center;
+}
+
+form input{
+    width: 300px;
+    margin: 4px;
+}
+
+select{
+    width: 300px;
+}
+
+textarea{
+    width: 300px;
+}
+
+.submit{
+    background-color: #433E0E;
+    margin-top: 20px;
+    width: 90%;
+}

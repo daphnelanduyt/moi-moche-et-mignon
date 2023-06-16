@@ -1,0 +1,17 @@
+body{
+    background-color: #F2EE72;
+}
+
+.magasins{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.mag-description{
+    width: 680px;
+}
+
+.carte{
+    border: 2px black solid;
+}

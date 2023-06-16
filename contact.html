@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Moi, moche et trognon</title>
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
@@ -26,12 +25,12 @@
                 <div class="dropdown">                
                     <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</button>                    </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="">Tous nos produits</a>
-                      <a class="dropdown-item" href="#">Les lots antigaspillages</a>
-                      <a class="dropdown-item" href="#">Jus</a>
-                      <a class="dropdown-item" href="#">Compotes</a>
-                      <a class="dropdown-item" href="#">Confitures</a>
-                      <a class="dropdown-item" href="#">Soupes</a>
+                    <a class="dropdown-item" href="">Tous nos produits</a>
+                    <a class="dropdown-item" href="#">Les lots antigaspillages</a>
+                    <a class="dropdown-item" href="#">Jus</a>
+                    <a class="dropdown-item" href="#">Compotes</a>
+                    <a class="dropdown-item" href="#">Confitures</a>
+                    <a class="dropdown-item" href="#">Soupes</a>
                     </div>
                 </div>
                 <div id="headerbuttons" class="btn-toolbar">
@@ -42,33 +41,36 @@
             </nav>
         </div>
     </header>
-    <div class="description">
-        <img src="./Images/minions oasis.jpg" class="rounded mx-auto d-block" alt="fruits avec les minions">
+
+    <div class="form">
+        <h3><b>Contactez-nous</b></h3>
+        <p class="fst-italic">N’hésitez pas à nous contacter, nous vous répondrons au plus vite.</p>
+        <form method="get">
+            <div><b>Nom* : </b><br><input type="text"></div>
+            <div><b>Email* : </b><br><input type="email"></div>
+            <div><b>Numéro de téléphone :</b><br><input type="tel"></div>
+            <div><b>Sujet du message* : </b><br>
+                <select>
+                    <option value="">Faire un choix</option>
+                    <option value="option1">CLIENT : Vous avez une question à propos de votre commande ou de votre produit ?</option>
+                    <option value="option2">FOURNISSEUR : Vous souhaitez nous proposer vos produits ?</option>
+                    <option value="option3">QUALITÉ : Vous avez une question à propos d'e la qualité d'un produit ?</option>
+                    <option value="option4">FIDÉLITÉ : Vous avez une question par rapport a votre compte fidélité ?</option>
+                    <option value="option5">BUG : Vous rencontrez un problème sur notre site ?</option>
+                    <option value="option6">AUTRE : Comment pouvons-nous vous aider ?</option>
+                </select>
+            </div>
+            <div><b>Votre commentare : </b><br>
+                <textarea placeholder="Entrez votre commentaire ici..."></textarea>
+            </div>
+            <div> <b>Ajoutez une image si nécessaire</b> <br>
+                <input type="file">
+            </div>
+            <div><button class="btn btn-primary submit" type="submit">Envoyer</button></div>
+        </form>
+
     </div>
-    <div class="stadedefrance">
-        <div class="opacity-75">
-            <img src="./Images/Stade_de_France_.jpg" alt="stade de france" style="width:100%";>
-        </div>
-        <div class="text-block fs-2 fw-bold">Le gâchis en France, c'est 17 millions de tonnes par an. Cela représente 17 fois le Stade de France rempli à ras bord de fruits et légumes parfaitement consommables qui sont jetés chaque année</div>
-    </div>
-    <div class="stats">
-        <div class="element1">
-            <img src="./images/image_jus.jpeg" alt="image des jus" width="100">
-            <p>30000 fruits sauvés pour la production des 7300 litres de jus</p>
-        </div>
-        <div class="element2">
-            <img src="./Images/Recettes-de-confitures.jpg" alt="image confiture" width="100">
-            <p>2281Kg fruits sauvés pour la production des 9125 pots de confiture</p>
-        </div>
-        <div class="element3">
-            <img src="./images/image_soupe.jpeg" alt="image soupe" width="100">
-            <p>2700Kg légumes sauvés pour la production des 5475 litres de soupe</p>
-        </div>
-        <div class="element4">
-            <img src="./images/image_compote.jpeg" alt="image compote" width="100">
-            <p>2500 Kg fruits sauvés pour la production des 3560 pots de compote</p>
-        </div>
-    </div>
+
     <footer>
         <nav>
             <section>
