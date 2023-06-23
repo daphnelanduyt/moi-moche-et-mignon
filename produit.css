@@ -1,0 +1,61 @@
+body {
+    margin: 50px ;
+    padding: 50px;
+    background: #F2EE72; ;
+}
+
+
+.img { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-body h5 { 
+    font-size:  20px;
+
+}
+
+.card-body p {
+
+    font-size:  15px;
+}
+
+
+div {
+padding: 10px;
+
+}
+.card-footer button {
+
+    margin: 20px; 
+    background: #C45824;
+
+
+}
+
+.card-footer {
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+
+.card-footer p {
+
+    color: #433E0E;
+    font-size: 30px;
+    
+}
+.myBtn{
+    background-color:#C45824;
+    padding: 10px;
+    margin: 20px;
+    font-size: larger;
+    
+}
+
+.myBtn:hover{
+    background-color:#F2EE72
+}
