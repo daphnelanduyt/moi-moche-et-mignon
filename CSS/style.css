@@ -3,17 +3,17 @@
     padding: 0;
 }
 a{
-    color: #a1661d;
+    color: #C45824;
     text-decoration: none;
 }
 
 header{
-    background-color: #a1661d;
+    background-color: #C45824;
     width: 100%;
 }
 #header1{
     display: flex;
-    background-color: #a1661d;
+    background-color: #C45824;
     justify-content: space-between;
     padding: 5px 8px;
     position: relative;
