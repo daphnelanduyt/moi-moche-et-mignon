@@ -31,36 +31,50 @@ header{
     display: flex;
     justify-content: left;
     margin: 5px;
-    padding: 5px;
-}
-
-#avataricon{
-    margin-right:30px;
+    padding:10px;
+    border-top: thick double #d0b38e;
 }
 
 #header2 div button{
     padding: 10px;
 }
 
+#avataricon{
+    margin-right:30px;
+}
+
 #searchbar{
-    display:inline-block;
-    width:350px;
-    margin-left: -100px;
-    margin-top: 20px;
+    display: flex;
+    width:730px;
+    margin-left: -250px;
+    margin-top:35px;
+    height: 30px;
+    border-radius:15px;
+    text-align: center;
+    opacity: 50%;
+    justify-content: flex-start;    
+}
+
+#magglass{
+    margin-top: 43px;
+    margin-left: -40px;
+}
+
+#peppers{
+    display: flex;
+    margin-left: 45px;
+    justify-content: space-around;
+    width: 100%;
 }
 
 #headerbuttons{
     display: flex;
-    width: 1385px;
+    width: 940px;
     justify-content: right;
 }
 
 #btn1{
     margin-right:5px;
-}
-
-.dropdown{
-    color: white;
 }
 
 #btn2{
@@ -103,7 +117,8 @@ footer a{
     margin-bottom: 10px;
 }
 footer p{
-    align-self: flex-end;}
+    align-self: flex-end;
+}
 .bulletless{
     list-style-type: none;
 }
