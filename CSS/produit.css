@@ -31,7 +31,7 @@ padding: 10px;
 
     margin: 20px; 
     background: #C45824;
-
+    border-radius: 10px;
 
 }
 
@@ -50,6 +50,7 @@ padding: 10px;
 }
 .myBtn{
     background-color:#C45824;
+    color: white;
     padding: 10px;
     margin: 20px;
     font-size: larger;
@@ -57,5 +58,7 @@ padding: 10px;
 }
 
 .myBtn:hover{
-    background-color:#F2EE72
+    background-color:#F2EE72;
+    color:black
+
 }
