@@ -1,7 +1,87 @@
 body{
     background-color: #F2EE72;
 }
+
 #login{
+    display: flex;
+    justify-content: center;
+    background-color: #C45824;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 550px;
+    width: 30%;
+    height:500px;
+    border-radius: 15px;
+    position: relative;
+}
+
+h2{
+    /* background-color: yellow; */
+    height: 35px;
+    display: flex;
+    position: absolute;
+    color:#F2EE72;
+    margin-top: 35px;
+}
+
+/* .g-recaptcha{
+    margin-top: 30px;
+    margin-bottom: 30px;
+} */
+
+
+#form{
+margin-top: 120px;
+align-items: center;
+}
+
+#password, #email{
+    height: 35px;
+    margin-top:10px;
+    border-radius: 10px;
+    border: 10px;
+}
+
+#loginlinks a{
+    color: #F2EE72;
+    padding-top: 10px;
+}
+
+.g-recaptcha{
+    display:block;
+    background-color: black;
+    }
+
+#signup{
+    display:inline-block;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+#forgotten{
+    display: inline-block;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 120px;
+}
+
+#login-btn{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+#signup:hover{
+    color: white;
+}
+
+#forgotten:hover{
+    color:white;
+}
+
+
+/* #login{
     background-color: #C45824;
     display: flex;
     justify-content: center;
@@ -10,17 +90,18 @@ body{
     width: 400px;
     margin-left: 600px;
     margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
     border-radius: 15px;
 }
 h2{
-    margin-left: 27px;   
+    margin-left: 110px;   
     margin-top: 80px; 
     color: rgb(255, 255, 255);
 }
 form{
     margin-top: 200px;
-    margin-left: -170px;
+    margin-left: -150px;
     color: white;
 }
 
@@ -35,8 +116,7 @@ form{
 #loginlinks a{
     color:#dedec9;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
+
 }
 
 #signup{
@@ -45,5 +125,5 @@ form{
 }
 
 #forgotten{
-    margin-left: -190px;
-}
+    margin-left: -140px;
+} */ 
