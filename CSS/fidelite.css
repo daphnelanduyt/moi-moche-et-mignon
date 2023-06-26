@@ -1,0 +1,180 @@
+body{
+    background-color: #F2EE72;
+}
+
+.titre-fidelite{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card-fidelite{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 37%;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.logo-fidelite{
+    width: 220px;
+    height: 200px;
+    padding: 15px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-image:linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("../Images/fruits\ et\ legumes.jpg");
+}
+.logo-fidelite img{
+    margin-top: 30px;
+}
+
+.text-card-fidelite{
+    
+    width: 140px;
+    height: 200px;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 15px;
+}
+
+.boutons-fidelite{
+    margin-top: 15px;
+    padding: 1%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.boutons-fidelite button{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #C45824;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #0brgb(179, 29, 29);
+    --bs-btn-hover-border-color: #433E0E;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: #433E0E;
+    --bs-btn-active-border-color: #433E0E;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+    width: 600px;
+}
+
+.paragraphe-card-fidelite{
+    border-color: #C45824;
+}
+
+.titre-avantage{
+    text-align: center;
+    margin-top: 25px;
+    padding: 1%;
+    font-family: cursive;
+}
+
+.detail-avantage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
+.detail-avantage div{
+    /*border: red solid;*/
+    width: 490px;
+    height: 290px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25%;
+    background-color: #fff;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+    color:#433E0E
+}
+.detail-avantage div{
+    position: relative;
+
+}
+
+.text1-avantage, .text2-avantage{
+    position:absolute;
+    margin-left: 70px;
+}
+
+.citron1{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+.citron2{
+    position:absolute;
+    margin-top: -160px;
+    margin-left: 350px;
+    border-radius: 30px;
+}
+
+.cerise1{
+    position:absolute;
+    margin-top: -160px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.cerise2{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 350px;
+    border-radius: 30px;
+}
+
+.text3-avantage, .text4-avantage{
+    position: absolute;
+    margin-left: 45px;
+}
+
+.pdt1{
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 15px;
+    border-radius: 30px;
+}
+
+.pdt2{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 350px;
+}
+
+.aubergine1{
+    position: absolute;
+    margin-top: 150px;
+}
+
+.aubergine2{
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 350px;
+}
+
+.avantage{
+    margin-bottom: 40px;
+}
+
+.titre-profiter{
+    text-align: center;
+    margin-top: 25px;
+    padding: 1%;
+    font-family: cursive;
+}
+
+.div-profiter{
+    border: red solid;
+    display: flex;
+    justify-content: space-evenly;
+}
