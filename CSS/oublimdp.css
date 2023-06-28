@@ -21,6 +21,7 @@ h2{
     width: 30%;
     height:270px;
     border-radius: 15px;
+    border: 1px #433E0E solid;
     position: relative;
 }
 
@@ -33,7 +34,8 @@ h2{
     height: 30px;
     border-radius: 10px;
     width: 100%;
-    border: 10px;
+    border-radius: 10px;
+    border: 1px #433E0E solid;
     display: inline-block;
     margin-right: 40px;
 }

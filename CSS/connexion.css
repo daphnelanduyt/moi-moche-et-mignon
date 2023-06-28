@@ -11,7 +11,8 @@ body{
     margin-left: 550px;
     width: 30%;
     height:450px;
-    border-radius: 15px;
+    border-radius: 10px;
+    border: 1px #433E0E solid;
     position: relative;
 }
 

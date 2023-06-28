@@ -71,4 +71,8 @@ body {
 .myBtn:hover{
     background-color:#F2EE72;
     color:black
+}
 
+.col{
+width: 30%;
+}
