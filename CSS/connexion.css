@@ -39,7 +39,7 @@ align-items: center;
     height: 35px;
     margin-top:10px;
     border-radius: 10px;
-    border: 10px;
+    border: 1px #433E0E solid;
 }
 
 #loginlinks a{
@@ -73,11 +73,31 @@ align-items: center;
 }
 
 #signup:hover{
-    color: white;
+    color: #4b2917;
 }
 
 #forgotten:hover{
-    color:white;
+    color:#4b2917;
+}
+
+.text-center{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #C45824;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #0brgb(179, 29, 29);
+    --bs-btn-hover-border-color: #433E0E;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: #433E0E;
+    --bs-btn-active-border-color: #433E0E;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+.text-center:hover{
+    background-color: #F2EE72;
+    color: black;
 }
 
 
