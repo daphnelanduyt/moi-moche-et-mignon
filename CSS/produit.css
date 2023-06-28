@@ -1,9 +1,16 @@
 body {
-    margin: 50px ;
-    padding: 50px;
     background: #F2EE72; ;
 }
 
+#maindiv{
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.test{
+    display: flex;
+    justify-content: space-around;
+}
 
 .img { 
     display: flex;
@@ -18,15 +25,9 @@ body {
 }
 
 .card-body p {
-
     font-size:  15px;
 }
 
-
-div {
-padding: 10px;
-
-}
 .card-footer button {
 
     margin: 20px; 
@@ -61,4 +62,8 @@ padding: 10px;
     background-color:#F2EE72;
     color:black
 
+}
+
+.col{
+    width: 30%;
 }
