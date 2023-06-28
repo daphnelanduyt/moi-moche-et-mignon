@@ -1,9 +1,10 @@
 body {
-    margin: 50px ;
-    padding: 50px;
-    background: #F2EE72; ;
+    background: #F2EE72; 
 }
 
+#maindiv{
+    margin-bottom: 30px;
+}
 
 .card-img { 
     display: flex;
@@ -35,7 +36,7 @@ body {
 
 div {
     padding: 10px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 .card-footer button {
 
