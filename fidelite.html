@@ -9,6 +9,53 @@
     <title>La fidélité avec nous</title>
 </head>
 <body>
+    <header>
+        <div id="header1">
+            <a href = ./index.html> <img src="./images/logo site temp white.png" width="200px" height="80px" id="logo"></a> 
+            <img src="./images/icons header/magnifying glass.png" width="16px" height="15px" id="magglass"></a>
+            <input type="search" name="recherche" placeholder="Rechercher" id="searchbar">
+            <div id=headericons>
+                <a href ="./connexion.html"> <img src="./images/avatar icone white.png" width="52px" height="52px" id="avataricon"></a>
+                <a href = "./panier.html"><img src="./images/panier icone white.png" alt="Panier" width="52px" height="52px" id="basketicon"></a>
+            </div>
+        </div>
+        <div id="header2">
+            <nav>
+                <div class="dropdown">                
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</button>                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="./produits.html">Tous nos produits</a>
+                      <a class="dropdown-item" href="./lots.html">Les lots antigaspillage</a>
+                      <a class="dropdown-item" href="./jus.html">Jus</a>
+                      <a class="dropdown-item" href="./compotes.html">Compotes</a>
+                      <a class="dropdown-item" href="./confitures.html">Confitures</a>
+                      <a class="dropdown-item" href="./soupes.html">Soupes</a>
+                    </div>
+                </div>
+                <div id="peppers">
+                    <img src="./images/icons header/chili-pepper-17-xxl.png" alt="pepper1" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-20-xxl.png" alt="pepper2" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-23-xxl.png" alt="pepper3" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-24-xxl.png" alt="pepper4" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-25-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-26-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-3-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-8-xxl.png" alt="pepper5" width="50px" height="50px">
+                </div>
+                <div id="headerbuttons" class="btn-toolbar">
+                    <a href="./magasins.html" type="button" class="btn btn-light" id="btn1">Nos magasins</a>
+                    <a href="./agriculteurs.html" type="button" class="btn btn-light" id="btn2">Nos agriculteurs</a>
+                    <a href="./fidelite.html" type="button" class="btn btn-light" id="btn3">La fidélité avec nous</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Accueil</a></li>
+          <li class="breadcrumb-item active" aria-current="page">La fidélité avec nous</li>
+        </ol>
+      </nav>
     <h2 class="titre-fidelite fw-bolder">LA FIDÉLITÉ AVEC NOUS !</h2>
     <div>
         <div class="card-fidelite">
@@ -16,8 +63,8 @@
             <span class="text-card-fidelite fs-3 text fst-italic">Carte<br>de<br>fidélité </span>
         </div>
         <div class="boutons-fidelite">
-            <button type="button" class="btn ">Je m'inscris</button>
-            <button type="button" class="btn ">J'accède à mon compte</button>
+            <a href="./inscription.html"><button type="button" class="btn ">Je m'inscris</button></a>
+            <a href="./moncompte.html"><button type="button" class="btn ">J'accède à mon compte</button></a>
         </div>
         <p class="paragraphe-card-fidelite font-monospace border-bottom">* Voir <a href="">conditions générales d'utilisation</a>. Programme valable uniquement dans les magasins physiques du réseau Moi, moche et trognon</p>
     </div>
@@ -50,22 +97,24 @@
         <h3 class="titre-profiter">Comment en profiter ?</h3>
         <div class="div-profiter">
             <div class="card text-center mb-3" style="width: 18rem;">
-                <img src="" alt="">
                 <div class="card-body">
+                    <img src="./Images/logo magasin.webp" alt="logo maasin" width="220">
                   <h5 class="card-title">Inscrivez-vous dans l'un de nos magasins</h5>
-                  <a href="#" class="btn btn-primary">Retrouvez nos magasins</a>
+                  <a href="./magasins.html" class="btn btn-primary boutons-profiter">Retrouvez nos magasins</a>
                 </div>
             </div>
             <div class="card text-center mb-3" style="width: 18rem;">
                 <div class="card-body">
-                  <h5 class="card-title">Inscrivez-vous en quelques clicks en ligne, sur notre site</h5>
-                  <a href="#" class="btn btn-primary">Je m'inscris</a>
+                    <img src="./Images/logo web.png" alt="logo web" width="200">
+                    <h5 class="card-title">Inscrivez-vous en quelques clicks en ligne, sur notre site</h5>
+                    <a href="./inscription.html" class="btn btn-primary boutons-profiter">Je m'inscris</a>
                 </div>
             </div>
             <div class="card text-center mb-3" style="width: 18rem;">
                 <div class="card-body">
-                  <h5 class="card-title">Cumulez des points à chaque passage en caisse</h5>
-                  <a href="#" class="btn btn-primary">Consulter mon solde</a>
+                    <img src="./Images/points logo.png" alt="logo cashback" width="200">
+                    <h5 class="card-title">Cumulez des points à chaque passage en caisse</h5>
+                    <a href="#" class="btn btn-primary boutons-profiter">Consulter mon solde</a>
                 </div>
             </div>
         </div>

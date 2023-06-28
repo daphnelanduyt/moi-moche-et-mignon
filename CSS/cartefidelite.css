@@ -1,0 +1,90 @@
+body{
+    background-color: #F2EE72;
+}
+
+.container-moncompte{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    padding: 20px;
+}
+.titre-moncompte{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div-points{
+    width: 950px;
+    height: 155px;
+    display: flex;
+    justify-content: space-around;
+}
+.div-points span{
+    
+    background-color: white;
+    border-radius: 80px;
+    text-align: center;
+    width: 155px;
+    height: 155px;
+    font-family: cursive;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("../Images/fruits\ et\ legumes.jpg");
+    color: white;
+}
+
+.parainage{
+    border: red solid;
+    width: 950px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 500px;
+    /*text-align: center;*/
+}
+
+.parainage h2{
+    text-align: center;
+}
+
+.parainage h3{
+    text-align: center;
+}
+
+.div-parainage{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-parainage span{
+    border: purple solid;
+    background-color: white;
+    width: 200px;
+    height: 100;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.p1-parainage{
+    text-align: left;
+}
+
+.bouton-envoyer{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #C45824;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #0brgb(179, 29, 29);
+    --bs-btn-hover-border-color: #433E0E;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: #433E0E;
+    --bs-btn-active-border-color: #433E0E;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+    width: 200px;
+}
+
+.div-parainage input{
+    text-align: left;
+}
+
+
