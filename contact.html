@@ -6,37 +6,46 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/contact.css">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
     <header>
         <div id="header1">
-            <a href = ./index.html> <img src="./images/logo site temp white.png" width="200px" height="80px" id="logo"></a>
-            <form> 
-                <input type="search" name="recherche" placeholder="Rechercher" id="searchbar">
-            </form>
+            <a href = ./index.html> <img src="./images/logo site temp white.png" width="200px" height="80px" id="logo"></a> 
+            <img src="./images/icons header/magnifying glass.png" width="16px" height="15px" id="magglass"></a>
+            <input type="search" name="recherche" placeholder="Rechercher" id="searchbar">
             <div id=headericons>
                 <a href ="./connexion.html"> <img src="./images/avatar icone white.png" width="52px" height="52px" id="avataricon"></a>
                 <a href = "./panier.html"><img src="./images/panier icone white.png" alt="Panier" width="52px" height="52px" id="basketicon"></a>
             </div>
         </div>
-        <div id="header2" class="border-top">
+        <div id="header2">
             <nav>
                 <div class="dropdown">                
                     <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</button>                    </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="./tousproduits.html">Tous nos produits</a>
-                    <a class="dropdown-item" href="./produits.html">Les lots antigaspillage</a>
-                    <a class="dropdown-item" href="#">Jus</a>
-                    <a class="dropdown-item" href="#">Compotes</a>
-                    <a class="dropdown-item" href="#">Confitures</a>
-                    <a class="dropdown-item" href="#">Soupes</a>
+                      <a class="dropdown-item" href="./tousproduits.html">Tous nos produits</a>
+                      <a class="dropdown-item" href="./produits.html">Les lots antigaspillage</a>
+                      <a class="dropdown-item" href="./jus.html">Jus</a>
+                      <a class="dropdown-item" href="./compotes.html">Compotes</a>
+                      <a class="dropdown-item" href="./confitures.html">Confitures</a>
+                      <a class="dropdown-item" href="./soupes.html">Soupes</a>
                     </div>
                 </div>
+                <div id="peppers">
+                    <img src="./images/icons header/chili-pepper-17-xxl.png" alt="pepper1" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-20-xxl.png" alt="pepper2" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-23-xxl.png" alt="pepper3" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-24-xxl.png" alt="pepper4" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-25-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-26-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-3-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-8-xxl.png" alt="pepper5" width="50px" height="50px">
+                </div>
                 <div id="headerbuttons" class="btn-toolbar">
-                    <button type="button" class="btn btn-light" id="btn1">Nos magasins</button>
-                    <button type="button" class="btn btn-light" id="btn2">Nos agriculteurs</button>
-                    <button type="button" class="btn btn-light" id="btn3">La fidélité avec nous</button>
+                    <a href="./magasins.html" type="button" class="btn btn-light" id="btn1">Nos magasins</a>
+                    <a href="./agriculteurs.html" type="button" class="btn btn-light" id="btn2">Nos agriculteurs</a>
+                    <a href="./fidelite.html" type="button" class="btn btn-light" id="btn3">La fidélité avec nous</a>
                 </div>
             </nav>
         </div>
@@ -46,11 +55,11 @@
         <h3><b>Contactez-nous</b></h3>
         <p class="fst-italic">N’hésitez pas à nous contacter, nous vous répondrons au plus vite.</p>
         <form method="get">
-            <div><b>Nom* : </b><br><input type="text"></div>
-            <div><b>Email* : </b><br><input type="email"></div>
-            <div><b>Numéro de téléphone :</b><br><input type="tel"></div>
+            <div><b>Nom* : </b><br><input type="text" class="formelement"></div>
+            <div><b>Email* : </b><br><input type="email" class="formelement"></div>
+            <div><b>Numéro de téléphone :</b><br><input type="tel" class="formelement"></div>
             <div><b>Sujet du message* : </b><br>
-                <select>
+                <select class="formelement">
                     <option value="">Faire un choix</option>
                     <option value="option1">CLIENT : Vous avez une question à propos de votre commande ou de votre produit ?</option>
                     <option value="option2">FOURNISSEUR : Vous souhaitez nous proposer vos produits ?</option>
@@ -61,12 +70,12 @@
                 </select>
             </div>
             <div><b>Votre commentare : </b><br>
-                <textarea placeholder="Entrez votre commentaire ici..."></textarea>
+                <textarea placeholder="Entrez votre commentaire ici..." class="formelement"></textarea>
             </div>
             <div> <b>Ajoutez une image si nécessaire</b> <br>
                 <input type="file">
             </div>
-            <div><button class="btn btn-primary submit" type="submit">Envoyer</button></div>
+            <div><button class="btn btn-light text-center" type="submit">Envoyer</button></div>
         </form>
 
     </div>
@@ -84,7 +93,7 @@
                     <ul class="bulletless" id="footerlist2">
                         <li><a href="./conditions.html">Conditions générales de vente</a></li>
                         <li><a href="./livraison.html">Informations de livraison</a></li>
-                        <li><a href="url">Contact</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div id="footericons">

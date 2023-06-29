@@ -5,14 +5,14 @@ body{
 #login{
     display: flex;
     justify-content: center;
-    background-color: #f4efed;
+    background-color: #f4efed00;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 550px;
     width: 30%;
     height:450px;
-    border-radius: 10px;
-    border: 1px #433E0E solid;
+    border-radius: 120px;
+    border: 2px #433E0E solid;
     position: relative;
 }
 
@@ -40,7 +40,7 @@ align-items: center;
     height: 35px;
     margin-top:10px;
     border-radius: 10px;
-    border: 1px #433E0E solid;
+    border: 1px #beba96 solid;
 }
 
 #loginlinks a{

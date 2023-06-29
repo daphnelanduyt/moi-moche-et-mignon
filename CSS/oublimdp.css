@@ -14,14 +14,14 @@ h2{
 #oublimdp{
     display: flex;
     justify-content: center;
-    background-color: #f4efed;
+    background-color: #f4efed00;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 550px;
     width: 30%;
     height:270px;
-    border-radius: 15px;
-    border: 1px #433E0E solid;
+    border-radius: 90px;
+    border: 2px #433E0E solid;
     position: relative;
 }
 
@@ -35,7 +35,7 @@ h2{
     border-radius: 10px;
     width: 100%;
     border-radius: 10px;
-    border: 1px #433E0E solid;
+    border: 1px #beba96 solid;
     display: inline-block;
     margin-right: 40px;
 }
