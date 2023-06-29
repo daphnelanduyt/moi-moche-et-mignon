@@ -15,3 +15,7 @@ body{
 .carte{
     border: 2px black solid;
 }
+
+.maindiv{
+    margin-bottom: 55px;
+}
