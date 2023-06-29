@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="header1">
+            <a href = ./index.html> <img src="./images/logo site temp white.png" width="200px" height="80px" id="logo"></a> 
+            <img src="./images/icons header/magnifying glass.png" width="16px" height="15px" id="magglass"></a>
+            <input type="search" name="recherche" placeholder="Rechercher" id="searchbar">
+            <div id=headericons>
+                <a href ="./connexion.html"> <img src="./images/avatar icone white.png" width="52px" height="52px" id="avataricon"></a>
+                <a href = "./panier.html"><img src="./images/panier icone white.png" alt="Panier" width="52px" height="52px" id="basketicon"></a>
+            </div>
+        </div>
+        <div id="header2">
+            <nav>
+                <div class="dropdown">                
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</button>                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="./tousproduits.html">Tous nos produits</a>
+                      <a class="dropdown-item" href="./produits.html">Les lots antigaspillage</a>
+                      <a class="dropdown-item" href="./jus.html">Jus</a>
+                      <a class="dropdown-item" href="./compotes.html">Compotes</a>
+                      <a class="dropdown-item" href="./confitures.html">Confitures</a>
+                      <a class="dropdown-item" href="./soupes.html">Soupes</a>
+                    </div>
+                </div>
+                <div id="peppers">
+                    <img src="./images/icons header/chili-pepper-17-xxl.png" alt="pepper1" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-20-xxl.png" alt="pepper2" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-23-xxl.png" alt="pepper3" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-24-xxl.png" alt="pepper4" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-25-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-26-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-3-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-8-xxl.png" alt="pepper5" width="50px" height="50px">
+                </div>
+                <div id="headerbuttons" class="btn-toolbar">
+                    <a href="./magasins.html" type="button" class="btn btn-light" id="btn1">Nos magasins</a>
+                    <a href="./agriculteurs.html" type="button" class="btn btn-light" id="btn2">Nos agriculteurs</a>
+                    <a href="./fidelite.html" type="button" class="btn btn-light" id="btn3">La fidélité avec nous</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Accueil</li>
+        </ol>
+      </nav>
+    
+    <section class="pt-5 pb-5">
+        <div class="container">
+          <div class="row w-100">
+              <div class="col-lg-12 col-md-12 col-12">
+                  <h3 class="display-5 mb-2 text-center">Panier</h3>
+                  <p class="mb-5 text-center">
+                      <i class="text-info font-weight-bold">3</i> articles dans votre panier</p>
+                  <table id="shoppingCart" class="table table-condensed table-responsive">
+                      <thead>
+                          <tr>
+                              <th style="width:60%">Articles</th>
+                              <th style="width:12%">Prix</th>
+                              <th style="width:10%">Quantité</th>
+                              <th style="width:16%"></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td data-th="Product">
+                                  <div class="row">
+                                      <div class="col-md-3 text-left">
+                                          <img src="./images/confiture de griottes.jpg" alt="" class="img-fluid d-none d-md-block rounded mb-2 shadow ">
+                                      </div>
+                                      <div class="col-md-9 text-left mt-sm-2">
+                                          <h4>Confiture de griottes</h4>
+                                          <p class="font-weight-light"></p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td data-th="Price">2,75€</td>
+                              <td data-th="Quantity">
+                                  <input type="number" class="form-control form-control-lg text-center" value="1">
+                              </td>
+                              <td class="actions" data-th="">
+                                  <div class="text-right">
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="fas fa-sync"></i>
+                                      </button>
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="fas fa-trash"></i>
+                                      </button>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td data-th="Product">
+                                  <div class="row">
+                                      <div class="col-md-3 text-left">
+                                          <img src="./images/jus d'abricot.jpg" alt="" class="img-fluid d-none d-md-block rounded mb-2 shadow ">
+                                      </div>
+                                      <div class="col-md-9 text-left mt-sm-2">
+                                          <h4>Jus d'abricot</h4>
+                                          <p class="font-weight-light"></p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td data-th="Price">2,5€</td>
+                              <td data-th="Quantity">
+                                  <input type="number" class="form-control form-control-lg text-center" value="1">
+                              </td>
+                              <td class="actions" data-th="">
+                                  <div class="text-right">
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="fas fa-sync"></i>
+                                      </button>
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="fas fa-trash"></i>
+                                      </button>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td data-th="Product">
+                                  <div class="row">
+                                      <div class="col-md-3 text-left">
+                                          <img src="./images/compote rhubarbe.jpg" alt="" class="img-fluid d-none d-md-block rounded mb-2 shadow ">
+                                      </div>
+                                      <div class="col-md-9 text-left mt-sm-2">
+                                          <h4>Compote de rhubarbes</h4>
+                                          <p class="font-weight-light"></p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td data-th="Price">2,55€</td>
+                              <td data-th="Quantity">
+                                  <input type="number" class="form-control form-control-lg text-center" value="1">
+                              </td>
+                              <td class="actions" data-th="">
+                                  <div class="text-right">
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="fas fa-sync"></i>
+                                      </button>
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="fas fa-trash"></i>
+                                      </button>
+                                  </div>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <div class="float-right text-right">
+                      <h4>Total:</h4>
+                      <h1>7,8€</h1>
+                  </div>
+              </div>
+          </div>
+          <div class="row mt-4 d-flex align-items-center">
+              <div class="col-sm-6 order-md-2 text-right">
+                  <a href="catalog.html" class="btn btn-primary mb-4 btn-lg pl-5 pr-5">Payer</a>
+              </div>
+              <div class="col-sm-6 mb-3 mb-m-1 order-md-1 text-md-left">
+                  <a href="catalog.html">
+                      <i class="fas fa-arrow-left mr-2"></i> Continuer mes achats</a>
+              </div>
+          </div>
+      </div>
+      </section>
+      <footer>
+        <nav>
+            <section>
+                <div id="footerlists">
+                    <ul class="bulletless">
+                        <li><a href="./tousproduits.html">Nos produits</a></li>
+                        <li><a href="./magasins.html">Nos magasins</a></li>
+                        <li><a href="./fournisseurs.html">Nos fournisseurs</a></li>
+                        <li><a href="./fidelite.html">La fidélité avec nous</a></li>
+                    </ul>
+                    <ul class="bulletless" id="footerlist2">
+                        <li><a href="./conditions.html">Conditions générales de vente</a></li>
+                        <li><a href="./livraison.html">Informations de livraison</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="footericons">
+                    <a href="https://www.facebook.com" target="_blank"><img src="./images/logo fb.png" alt="fb" width="25px"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="./images/logo twt.png" alt="twt" width="25px"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="./images/logo ytb.png" alt="ytb" width="25px"></a>
+                </div>
+            </section>
+        </nav>
+        <p>© 2023, Moi, moche et trognon</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
