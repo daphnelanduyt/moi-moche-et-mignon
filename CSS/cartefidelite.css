@@ -42,6 +42,7 @@ body{
 .parainage{
     background-color: #F2EE72;
     border-radius: 90px;
+    height: 400px;
 }
 
 .parainage h2{
@@ -102,4 +103,12 @@ body{
     margin-left: 50px;
 }
 
+.toast-header{
+    height: 70px;
+    width: 850px;
+}
 
+.aletre-parainage{
+    height: 70px;
+    width: 850px;
+}
