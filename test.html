@@ -1,269 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/jus.css">
+    <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Nos jus</title>
+    <title>Moi, moche et trognon</title>
 </head>
 <body>
-  <header>
-    <div id="header1">
-        <a href = ./index.html> <img src="./images/logo site temp white.png" width="200px" height="80px" id="logo"></a> 
-        <img src="./images/icons header/magnifying glass.png" width="16px" height="15px" id="magglass"></a>
-        <input type="search" name="recherche" placeholder="Rechercher" id="searchbar">
-        <div id=headericons>
-            <a href ="./connexion.html"> <img src="./images/avatar icone white.png" width="52px" height="52px" id="avataricon"></a>
-            <a href = "./panier.html"><img src="./images/panier icone white.png" alt="Panier" width="52px" height="52px" id="basketicon"></a>
+    <header>
+        <div id="header1">
+            <a href = ./index.html> <img src="./images/logo site temp white.png" width="200px" height="80px" id="logo"></a> 
+            <img src="./images/icons header/magnifying glass.png" width="16px" height="15px" id="magglass"></a>
+            <input type="search" name="recherche" placeholder="Rechercher" id="searchbar">
+            <div id=headericons>
+                <a href ="./moncompte.html"> <img src="./images/avatar icone white.png" width="52px" height="52px" id="avataricon"></a>
+                <a href = "./panier.html"><img src="./images/panier icone white.png" alt="Panier" width="52px" height="52px" id="basketicon"></a>
+            </div>
+        </div>
+        <div id="header2">
+            <nav>
+                <div class="dropdown">                
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</button>                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="./tousproduits.html">Tous nos produits</a>
+                      <a class="dropdown-item" href="./produits.html">Les lots antigaspillage</a>
+                      <a class="dropdown-item" href="./jus.html">Jus</a>
+                      <a class="dropdown-item" href="./compotes.html">Compotes</a>
+                      <a class="dropdown-item" href="./confitures.html">Confitures</a>
+                      <a class="dropdown-item" href="./soupes.html">Soupes</a>
+                    </div>
+                </div>
+                <div id="peppers">
+                    <img src="./images/icons header/chili-pepper-17-xxl.png" alt="pepper1" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-20-xxl.png" alt="pepper2" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-23-xxl.png" alt="pepper3" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-24-xxl.png" alt="pepper4" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-25-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-26-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-3-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-8-xxl.png" alt="pepper5" width="50px" height="50px">
+                </div>
+                <div id="headerbuttons" class="btn-toolbar">
+                    <a href="./magasins.html" type="button" class="btn btn-light" id="btn1">Nos magasins</a>
+                    <a href="./agriculteurs.html" type="button" class="btn btn-light" id="btn2">Nos agriculteurs</a>
+                    <a href="./fidelite.html" type="button" class="btn btn-light" id="btn3">La fidélité avec nous</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Accueil</li>
+        </ol>
+      </nav>
+    
+    <div class="description">
+        <img src="./Images/minions oasis.jpg" class="rounded mx-auto d-block" alt="fruits avec les minions">
+    </div>
+    <div class="stadedefrance">
+        <div class="opacity-75">
+            <img src="./Images/Stade_de_France_.jpg" alt="stade de france" style="width:100%";>
+        </div>
+        <div class="text-block fs-2 fw-bold">Le gâchis en France, c'est 17 millions de tonnes par an. Cela représente 17 fois le Stade de France rempli à ras bord de fruits et légumes parfaitement consommables qui sont jetés chaque année</div>
+    </div>
+    <div class="stats">
+        <div class="element1 border">
+            <div class="div-element">
+                <img src="./images/image_jus.jpeg" alt="image des jus" width="200" height="160">
+                <p><strong>30000 fruits sauvés pour la production des 7300 litres de jus</strong></p>
+            </div>
+        </div>
+        <div class="element2">
+            <div class="div-element">
+                <img src="./Images/Recettes-de-confitures.jpg" alt="image confiture" width="200" height="160">
+                <p><strong>2281Kg fruits sauvés pour la production des 9125 pots de confiture</strong></p>
+            </div>
+        </div>
+        <div class="element3">
+            <div class="div-element">
+                <img src="./images/image_soupe.jpeg" alt="image soupe" width="200" height="160">
+                <p><strong>2700Kg légumes sauvés pour la production des 5475 litres de soupe</strong></p>
+            </div>
+        </div>
+        <div class="element4">
+            <div class="div-element">
+                <img src="./images/image_compote.jpeg" alt="image compote" width="200" height="160">
+                <p><strong>2500 Kg fruits sauvés pour la production des 3560 pots de compote</strong></p>
+            </div>
         </div>
     </div>
-    <div id="header2">
+    <footer>
         <nav>
-            <div class="dropdown">                
-                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</button>                    </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="./produits.html">Tous nos produits</a>
-                  <a class="dropdown-item" href="./lots.html">Les lots antigaspillage</a>
-                  <a class="dropdown-item" href="./jus.html">Jus</a>
-                  <a class="dropdown-item" href="./compotes.html">Compotes</a>
-                  <a class="dropdown-item" href="./confitures.html">Confitures</a>
-                  <a class="dropdown-item" href="./soupes.html">Soupes</a>
+            <section>
+                <div id="footerlists">
+                    <ul class="bulletless">
+                        <li><a href="./produits.html">Nos produits</a></li>
+                        <li><a href="./magasins.html">Nos magasins</a></li>
+                        <li><a href="./fournisseurs.html">Nos fournisseurs</a></li>
+                        <li><a href="./fidelite.html">La fidélité avec nous</a></li>
+                    </ul>
+                    <ul class="bulletless" id="footerlist2">
+                        <li><a href="./conditions.html">Conditions générales de vente</a></li>
+                        <li><a href="./livraison.html">Informations de livraison</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div id="peppers">
-                <img src="./images/icons header/chili-pepper-17-xxl.png" alt="pepper1" width="50px" height="50px">
-                <img src="./images/icons header/chili-pepper-20-xxl.png" alt="pepper2" width="50px" height="50px">
-                <img src="./images/icons header/chili-pepper-23-xxl.png" alt="pepper3" width="50px" height="50px">
-                <img src="./images/icons header/chili-pepper-24-xxl.png" alt="pepper4" width="50px" height="50px">
-                <img src="./images/icons header/chili-pepper-25-xxl.png" alt="pepper5" width="50px" height="50px">
-                <img src="./images/icons header/chili-pepper-26-xxl.png" alt="pepper5" width="50px" height="50px">
-                <img src="./images/icons header/chili-pepper-3-xxl.png" alt="pepper5" width="50px" height="50px">
-                <img src="./images/icons header/chili-pepper-8-xxl.png" alt="pepper5" width="50px" height="50px">
-            </div>
-            <div id="headerbuttons" class="btn-toolbar">
-                <a href="./magasins.html" type="button" class="btn btn-light" id="btn1">Nos magasins</a>
-                <a href="./agriculteurs.html" type="button" class="btn btn-light" id="btn2">Nos agriculteurs</a>
-                <a href="./fidelite.html" type="button" class="btn btn-light" id="btn3">La fidélité avec nous</a>
-            </div>
+                <div id="footericons">
+                    <a href="https://www.facebook.com" target="_blank"><img src="./images/logo fb.png" alt="fb" width="25px"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="./images/logo twt.png" alt="twt" width="25px"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="./images/logo ytb.png" alt="ytb" width="25px"></a>
+                </div>
+            </section>
         </nav>
-    </div>
-</header>
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="./index.html">Accueil</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Jus</li>
-  </ol>
-</nav>
-    <div id="maindiv">
-    <div class="row row-cols-1 row-cols-md-3 g-4 test">
-        <div class="col">
-          <div class="card h-100">
-            <div class="toto">
-            <img src="./images/jus d'orange 1.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Jus d'orange 1L</h5>
-              <p>100% pur jus sans sucres ajoutés</p>
-            </div>
-            <div class="card-footer flex-column align-items-center">
-                <p>Prix 2,5€</p>
-                <button type="button" class="myBtn" id="liveToastBtn">Ajouter au panier</button>
-            </div>
-            <div class="toast-container position-fixed bottom-0 end-0 p-3">
-                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                  <div class="toast-header">
-                    <strong class="me-auto">Vous avez bien rajouté le produit au panier!!!</strong>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="toto">
-            <img src="./images/jus de pomme 1.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Jus de pomme 1L</h5>
-              <p class="card-text">100% pur jus sans sucres ajoutés</p>
-            </div>
-            <div class="card-footer flex-column align-items-center">
-                <p>Prix 2,5€</p>
-                <button type="button" class="myBtn">Ajouter au panier</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="toto">
-            <img src="./images/jus de raisin 1.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Jus de raisin 1L</h5>
-              <p class="card-text">100% pur jus sans sucres ajoutés</p>
-            </div>
-            <div class="card-footer flex-column align-items-center">
-                <p>Prix 2,5€</p>
-                <button type="button" class="myBtn">Ajouter au panier</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div>
-        <div class="row row-cols-1 row-cols-md-3 g-4 test">
-            <div class="col">
-              <div class="card h-100">
-                <div class="toto">
-                    <img src="./images/jus de carotte 1.jpg" class="card-img-top" alt="..." > 
-                </div> 
-                <div class="card-body">
-                  <h5 class="card-title">Jus de carotte 1L</h5>
-                  <p>100% pur jus sans sucres ajoutés</p>
-                </div>
-                <div class="card-footer flex-column align-items-center">
-                    <p>Prix 2,5€</p>
-                    <button type="button" class="myBtn">Ajouter au panier</button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <div class="toto">
-                    <img src="./images/lemon juice.jpg" class="card-img-top" alt="..." >
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Jus de citron 1L</h5>
-                  <p class="card-text">100% pur jus sans sucres ajoutés</p>
-                </div>
-                <div class="card-footer flex-column align-items-center">
-                    <p>Prix 2,5€</p>
-                    <button type="button" class="myBtn">Ajouter au panier</button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <div class="toto">
-                    <img src="./images/jus de tomate.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Jus de tomate 1L</h5>
-                  <p class="card-text">100% pur jus sans sucres ajoutés</p>
-                </div>
-                <div class="card-footer flex-column align-items-center">
-                    <p>Prix 2,5€</p>
-                    <button type="button" class="myBtn">Ajouter au panier</button>
-                </div>
-              </div>
-            </div>
-          </div> 
-
-          <div>
-            <div class="row row-cols-1 row-cols-md-3 g-4 test">
-                <div class="col">
-                  <div class="card h-100">
-                    <div class="toto">
-                        <img src="./images/jus de carotte et d'orange.jpg" class="card-img-top" alt="..." > 
-                    </div> 
-                    <div class="card-body">
-                      <h5 class="card-title">Jus de carotte et d'orange 1L</h5>
-                      <p>100% pur jus sans sucres ajoutés</p>
-                    </div>
-                    <div class="card-footer flex-column align-items-center">
-                        <p>Prix 2,5€</p>
-                        <button type="button" class="myBtn">Ajouter au panier</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <div class="toto">
-                        <img src="./images/jus d'abricot.jpg" class="card-img-top" alt="..." >
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Jus d'abricot 1L</h5>
-                      <p class="card-text">100% pur jus sans sucres ajoutés</p>
-                    </div>
-                    <div class="card-footer flex-column align-items-center">
-                        <p>Prix 2,5€</p>
-                        <button type="button" class="myBtn" id="liveToastBtn">Ajouter au panier</button>
-                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
-                            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                              <div class="toast-header">
-                                <img src="..." class="rounded me-2" alt="...">
-                                <strong class="me-auto">Bootstrap</strong>
-                                <small>11 mins ago</small>
-                                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                              </div>
-                              <div class="toast-body">
-                                Hello, world! This is a toast message.
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <div class="toto">
-                        <img src="./images/jus de pêche et raisin.jpg" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Jus de pêche et raisin 1L</h5>
-                      <p class="card-text">100% pur jus sans sucres ajoutés</p>
-                    </div>
-                    <div class="card-footer flex-column align-items-center">
-                        <p>Prix 2,5€</p>
-                        <button type="button" class="myBtn">Ajouter au panier</button>
-                    </div>
-                  </div>
-                </div>
-              </div>       
-            </div>       
-          </div>
-         </div>
-         <footer>
-          <nav>
-              <section>
-                  <div id="footerlists">
-                      <ul class="bulletless">
-                          <li><a href="./produits.html">Nos produits</a></li>
-                          <li><a href="./magasins.html">Nos magasins</a></li>
-                          <li><a href="./fournisseurs.html">Nos fournisseurs</a></li>
-                          <li><a href="./fidelite.html">La fidélité avec nous</a></li>
-                      </ul>
-                      <ul class="bulletless" id="footerlist2">
-                          <li><a href="./conditions.html">Conditions générales de vente</a></li>
-                          <li><a href="./livraison.html">Informations de livraison</a></li>
-                          <li><a href="./contact.html">Contact</a></li>
-                      </ul>
-                  </div>
-                  <div id="footericons">
-                      <a href="https://www.facebook.com" target="_blank"><img src="./images/logo fb.png" alt="fb" width="25px"></a>
-                      <a href="https://www.twitter.com" target="_blank"><img src="./images/logo twt.png" alt="twt" width="25px"></a>
-                      <a href="https://www.youtube.com" target="_blank"><img src="./images/logo ytb.png" alt="ytb" width="25px"></a>
-                  </div>
-              </section>
-          </nav>
-          <p>© 2023, Moi, moche et trognon</p>
-      </footer>
-  
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-      <script>
-        const toastTrigger = document.getElementById('liveToastBtn')
-const toastLiveExample = document.getElementById('liveToast')
-
-if (toastTrigger) {
-  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
-  toastTrigger.addEventListener('click', () => {
-    toastBootstrap.show()
-  })
-}
-      </script>
-  </body>
+        <p>© 2023, Moi, moche et trognon</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
 </html>
