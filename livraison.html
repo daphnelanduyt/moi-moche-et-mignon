@@ -3,51 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/livraison.css">
     <title>Informations de livraison</title>
 </head>
 <body>
-    <h1>Informations de livraison</h1> 
-    <h3>Quels sont les modes de livraison ?</h3>
-    <p>
-        Votre commande peut vous parvenir :<br><br>
-    </p>
-    <ul>
-        <li>A votre domicile, sans signature ;</li>
-        <li>Dans le Point Relais que vous aurez choisi.</li>
-    </ul>
-    <h3>Délais et frais de livraison</h3>
-    <p>
-        Les délais indiqués le sont à titre indicatif et peuvent varier en fonction de la période de l’année et du contexte social et économique.<br><br>
-        Délais indicatifs selon le mode de livraison :
-    </p>
-    <ul>
-        <li>Livraison à domicile – Métropole lilloise : chaque week-end, 1 à 2 jours</li>
-        <li>Retrait en point relais – Métropole lilloise : 3 à 5 jours, hors week-ends et jours fériés</li>
-        <li>Lors des périodes de congés du service de Moi, moche et trognon, ces délais pourront être rallongés. Dans ce cas, une information sera diffusée sur le site https://www.moimocheettrognon.com.</li>
-    </ul>
-    <p>
-        Les frais de livraison vous seront indiqués lors de la validation de votre commande. Lors d’une commande par téléphone, nous vous indiquerons les frais de livraison avant de valider votre commande.
-    </p>
-    <h3>Puis-je me faire livrer à l’adresse de mon choix ?</h3>
-    <p>
-        Vous avez la possibilité de choisir une adresse de livraison différente de l’adresse de facturation.
-    </p>
-    <h3>Que se passe-t-il si vous êtes absent au moment de la livraison à domicile ?</h3>
-    <p>
-        En cas d’absence, votre commande est mise en instance dans votre bureau de poste habituel.
-    </p>
-    <h3>Puis-je me faire livrer en point relais ?</h3>
-    <p>
-        Oui, vous pouvez recevoir votre commande au point relais que vous aurez choisi dans la liste de nos points relais partenaires. Votre commande reste à disposition 14 jours en point relais. Passé ce délai, l’envoi est renvoyé au point relais de dépôt.
-    </p>
-    <h3>Comment suivre mon colis ?</h3>
-    <p> 
-        A la suite de votre commande, un mail vous sera adressé avec un lien vers le site du transporteur et le numéro de suivi de votre colis.
-    </p>
-    <h3>Puis-je me faire livrer hors Métropole lilloise ?</h3>
-    <p>
-        Non.
-    </p>
+    <header>
+        <div id="header1">
+            <a href = ./index.html> <img src="./images/logo site temp white.png" width="200px" height="80px" id="logo"></a> 
+            <img src="./images/icons header/magnifying glass.png" width="16px" height="15px" id="magglass"></a>
+            <input type="search" name="recherche" placeholder="Rechercher" id="searchbar">
+            <div id=headericons>
+                <a href ="./connexion.html"> <img src="./images/avatar icone white.png" width="52px" height="52px" id="avataricon"></a>
+                <a href = "./panier.html"><img src="./images/panier icone white.png" alt="Panier" width="52px" height="52px" id="basketicon"></a>
+            </div>
+        </div>
+        <div id="header2">
+            <nav>
+                <div class="dropdown">                
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</button>                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="./tousproduits.html">Tous nos produits</a>
+                      <a class="dropdown-item" href="./produits.html">Les lots antigaspillage</a>
+                      <a class="dropdown-item" href="./jus.html">Jus</a>
+                      <a class="dropdown-item" href="./compotes.html">Compotes</a>
+                      <a class="dropdown-item" href="./confitures.html">Confitures</a>
+                      <a class="dropdown-item" href="./soupes.html">Soupes</a>
+                    </div>
+                </div>
+                <div id="peppers">
+                    <img src="./images/icons header/chili-pepper-17-xxl.png" alt="pepper1" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-20-xxl.png" alt="pepper2" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-23-xxl.png" alt="pepper3" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-24-xxl.png" alt="pepper4" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-25-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-26-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-3-xxl.png" alt="pepper5" width="50px" height="50px">
+                    <img src="./images/icons header/chili-pepper-8-xxl.png" alt="pepper5" width="50px" height="50px">
+                </div>
+                <div id="headerbuttons" class="btn-toolbar">
+                    <a href="./magasins.html" type="button" class="btn btn-light" id="btn1">Nos magasins</a>
+                    <a href="./agriculteurs.html" type="button" class="btn btn-light" id="btn2">Nos agriculteurs</a>
+                    <a href="./fidelite.html" type="button" class="btn btn-light" id="btn3">La fidélité avec nous</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Accueil</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Informations de livraison</li>
+        </ol>
+    </nav>
+    <div id="livraison">
+        <h4 class="title"><strong>INFORMATIONS DE LIVRAISON</strong></h4> 
+        <h5>Quels sont les modes de livraison ?</h5>
+        <p>
+            Votre commande peut vous parvenir :<br>
+        </p>
+        <ul>
+            <li>A votre domicile, sans signature ;</li>
+            <li>Dans le Point Relais que vous aurez choisi.</li>
+        </ul>
+        <h5>Délais et frais de livraison</h5>
+        <p>
+            Les délais indiqués le sont à titre indicatif et peuvent varier en fonction de la période de l’année et du contexte social et économique.<br><br>
+            Délais indicatifs selon le mode de livraison :
+        </p>
+        <ul>
+            <li>Livraison à domicile – Métropole lilloise : chaque week-end, 1 à 2 jours</li>
+            <li>Retrait en point relais – Métropole lilloise : 3 à 5 jours, hors week-ends et jours fériés</li>
+            <li>Lors des périodes de congés du service de Moi, moche et trognon, ces délais pourront être rallongés. Dans ce cas, une information sera diffusée sur le site https://www.moimocheettrognon.com.</li>
+        </ul>
+        <p>
+            Les frais de livraison vous seront indiqués lors de la validation de votre commande. Lors d’une commande par téléphone, nous vous indiquerons les frais de livraison avant de valider votre commande.
+        </p>
+        <h5>Puis-je me faire livrer à l’adresse de mon choix ?</h5>
+        <p>
+            Vous avez la possibilité de choisir une adresse de livraison différente de l’adresse de facturation.
+        </p>
+        <h5>Que se passe-t-il si vous êtes absent au moment de la livraison à domicile ?</h5>
+        <p>
+            En cas d’absence, votre commande est mise en instance dans votre bureau de poste habituel.
+        </p>
+        <h5>Puis-je me faire livrer en point relais ?</h5>
+        <p>
+            Oui, vous pouvez recevoir votre commande au point relais que vous aurez choisi dans la liste de nos points relais partenaires. Votre commande reste à disposition 14 jours en point relais. Passé ce délai, l’envoi est renvoyé au point relais de dépôt.
+        </p>
+        <h5>Comment suivre mon colis ?</h5>
+        <p> 
+            A la suite de votre commande, un mail vous sera adressé avec un lien vers le site du transporteur et le numéro de suivi de votre colis.
+        </p>
+        <h5>Puis-je me faire livrer hors Métropole lilloise ?</h5>
+        <p>
+            Non.
+        </p>
+    </div>
+    <footer>
+        <nav>
+            <section>
+                <div id="footerlists">
+                    <ul class="bulletless">
+                        <li><a href="./produits.html">Nos produits</a></li>
+                        <li><a href="./magasins.html">Nos magasins</a></li>
+                        <li><a href="./fournisseurs.html">Nos fournisseurs</a></li>
+                        <li><a href="./fidelite.html">La fidélité avec nous</a></li>
+                    </ul>
+                    <ul class="bulletless" id="footerlist2">
+                        <li><a href="./conditions.html">Conditions générales de vente</a></li>
+                        <li><a href="./livraison.html">Informations de livraison</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="footericons">
+                    <a href="https://www.facebook.com" target="_blank"><img src="./images/logo fb.png" alt="fb" width="25px"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="./images/logo twt.png" alt="twt" width="25px"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="./images/logo ytb.png" alt="ytb" width="25px"></a>
+                </div>
+            </section>
+        </nav>
+        <p>© 2023, Moi, moche et trognon</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
