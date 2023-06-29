@@ -31,39 +31,52 @@ body{
     color: white;
 }
 
-.parainage{
-    border: red solid;
-    width: 950px;
-    margin-top: 30px;
+.div-border{
+    background-color: white;
+    width: 900px;
+    margin-top: 50px;
     margin-bottom: 30px;
-    height: 500px;
-    /*text-align: center;*/
+    height: 400px;
+}
+
+.parainage{
+    background-color: #F2EE72;
+    border-radius: 90px;
 }
 
 .parainage h2{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .parainage h3{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .div-parainage{
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
 }
 
 .div-parainage span{
-    border: purple solid;
+    border: #433E0E solid;
     background-color: white;
     width: 200px;
-    height: 100;
+    height: 70px;
     text-align: center;
     border-radius: 50px;
 }
 
 .p1-parainage{
-    text-align: left;
+    margin-left: 25px;
+}
+
+.email-parainage{
+    width: 850px;
+    margin-left: 25px;
+    margin-bottom: 30px;
 }
 
 .bouton-envoyer{
@@ -81,10 +94,12 @@ body{
     --bs-btn-disabled-bg: #0d6efd;
     --bs-btn-disabled-border-color: #0d6efd;
     width: 200px;
+    
+    margin-left: 325px;
 }
 
-.div-parainage input{
-    text-align: left;
+.p2-parainage{
+    margin-left: 50px;
 }
 
 

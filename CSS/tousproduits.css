@@ -3,7 +3,7 @@ body {
 }
 
 #maindiv{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .test{
@@ -72,7 +72,7 @@ body {
     background-color:#F2EE72;
     color:black
 }
-.col {
 
-    width: 30%;
- }
+.col{
+width: 30%;
+}

@@ -24,8 +24,8 @@
                 <div class="dropdown">                
                     <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</button>                    </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="./produits.html">Tous nos produits</a>
-                      <a class="dropdown-item" href="./lots.html">Les lots antigaspillage</a>
+                      <a class="dropdown-item" href="./tousproduits.html">Tous nos produits</a>
+                      <a class="dropdown-item" href="./produits.html">Les lots antigaspillage</a>
                       <a class="dropdown-item" href="./jus.html">Jus</a>
                       <a class="dropdown-item" href="./compotes.html">Compotes</a>
                       <a class="dropdown-item" href="./confitures.html">Confitures</a>
@@ -50,34 +50,47 @@
             </nav>
         </div>
     </header>
+    
         <div id="cart">
-            <table>
-                <tr>
-                    <th>Article</th>
-                    <th>Prix</th>
+            <table class = "table table-striped">
+                <tr id="tabletitles">
+                    <th id="article">Article</th>
+                    <th >Prix</th>
                     <th>Qté</th>
                     <th>Sous-total</th>
                 </tr>
-                <tr>
-                    <td><img src="images/bouteille-jus-de-pomme-1l.jpg" height="120px" class="img"/></td>
-                    <td><h3 id="applejuice">Jus de pomme 1L</h3><h6 id="ml">100ml</h6></td>
+                <tr class="tablerow">
+                    <td><img src="images/bouteille-jus-de-pomme-1l.jpg" height="120px" class="img"/><br><h3 id="applejuice">Jus de pomme 1L</h3><h6 id="ml">100ml</h6></td>
+                    <td class="th2">2,5€</td>
+                    <td><div class=”counter”>
+                        <div class=”btn”><button>+</button></div>
+                        <div class=”count”>1</div>
+                        <div class=”btn”><button>-</button></div>
+                    </div></td>
                     <td>2,5€</td>
-                    <td></td>
                 </tr>
-                <tr>
-                    <td><img src="images/bouteille-jus-d-orange-1l.jpg" height="120px" class="img"/></td>
-                    <td><h3 id="applejuice">Jus de raisin 1L</h3><h6 id="ml">100ml</h6></td>
+                <tr class="tablerow">
+                    <td><img src="images/bouteille-jus-d-orange-1l.jpg" height="120px" class="img"/><br><h3 id="applejuice">Jus de raisin 1L</h3><h6 id="ml">100ml</h6></td>
+                    <td class="th2">2,5€</td>
+                    <td><div class=”counter”>
+                        <div class=”btn”><button>+</button></div>
+                        <div class=”count”>1</div>
+                        <div class=”btn”><button>-</button></div>
+                    </div></td>
                     <td>2,5€</td>
-                    <td></td>
                 </tr>
-                <tr>
-                    <td><img src="images/compote de mirabelles.jpg" height="120px" class="img"/></td>
-                    <td><h3 id="applejuice">Compote de <br> mirabelles 315g</h3><h6 id="ml">315g</h6></td>
-                    <td>2,7€</td>
-                    <td></td>
+                <tr class="tablerow">
+                    <td><img src="images/compote de mirabelles.jpg" height="120px" class="img"/><br><h3 id="applejuice">Compote de <br> mirabelles 315g</h3><h6 id="ml">315g</h6></td>
+                    <td class="th2">2,7€</td>
+                    <td><div class=”counter”>
+                        <div class=”btn”><button>+</button></div>
+                        <div class=”count”>2</div>
+                        <div class=”btn”><button>-</button></div>
+                    </div></td>
+                    <td>5,4€</td>
                 </tr>
-            </table>
-            <!-- <div class="cartheader">
+                </table>
+                        <!-- <div class="cartheader">
                 <h3 class="panier">Article</h3>
                 <h5>Prix</h5>
                 <h5>Qté</h5>
@@ -130,7 +143,7 @@
             <section>
                 <div id="footerlists">
                     <ul class="bulletless">
-                        <li><a href="./produits.html">Nos produits</a></li>
+                        <li><a href="./tousproduits.html">Nos produits</a></li>
                         <li><a href="./magasins.html">Nos magasins</a></li>
                         <li><a href="./fournisseurs.html">Nos fournisseurs</a></li>
                         <li><a href="./fidelite.html">La fidélité avec nous</a></li>

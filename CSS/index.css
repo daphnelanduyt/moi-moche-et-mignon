@@ -30,17 +30,28 @@ body{
 }
 
 .stats{
+    height: 300px;
     margin-top: 80px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-around;
 }
 
 .element1, .element2, .element3, .element4{
+    background-color: white;
     text-align: center;
     width: 200px;
-    height: 200px;
+    height: 275px;
+}
+
+.div-element{
+    background-color: #F2EE72;
+    border-radius: 50px;
+    width: 200px;
+    height: 275px;
 }
 
 .stats div img{
+    margin-top: 10px;
     border-radius: 75px 75px;
 }
