@@ -37,7 +37,7 @@ body{
     color: #C45824;
     border-bottom: 1px solid #C45824;
     /* display: flex;
-    justify-self: flex-start; 
+    justify-self: flex-start; */
 }
 
 .itembox{
@@ -51,7 +51,7 @@ body{
     width: 15%;
     height: 120px;
     position: absolute;
-}*/
+}
 #applejuice{
     padding-top: 5px;
     font-size: 18px;
@@ -72,6 +72,11 @@ body{
     margin-left: 40px;
 }
 
+.counter{
+    display: flex;
+    margin-left: 500px;
+} */
+
 #tabletitles{
     margin-left: 40px;
 }
@@ -79,10 +84,6 @@ body{
 #article{
     display: flex;
     margin-left: 70px;
-}
-
-.th2{
-    margin-top: 20px;
 }
 
 /* .table {
