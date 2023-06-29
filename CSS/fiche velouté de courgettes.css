@@ -1,0 +1,43 @@
+body {
+    background: #F2EE72; ;
+}
+
+.card {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 155px;
+    display: flex;  
+    align-items: center;
+}
+
+.title {
+    font-weight: bold ;
+}
+
+.myBtn{
+    background-color:#C45824;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    font-size: larger;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.myBtn:hover{
+    background-color:#F2EE72;
+    color:black
+}
+
+.bouton {
+
+    display: flex;
+
+    justify-content: center;
+}
+
+.price {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
